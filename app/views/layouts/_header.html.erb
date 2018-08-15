@@ -7,13 +7,17 @@
   <h1>
     <span>THP</span>Code</h1>
 
-    <h2>Rejoignez notre communauté de developper !</h2>
+    <h2>Rejoignez notre communauté de developper !
+    <br>
+    <p><strong>Abonnez-vous gratuitement et recevez nos derniéres actualités de Hacking !</strong></p></h2>
+
 
   <div class="hero-btn">
-    <%= form_with model: User.new, class: 'form-inline' do |f| %>
+      <%= form_with model: User.new, class: 'form-inline' do |f| %>
     <%= f.email_field :email, class: 'form-control', placeholder: 'E-MAIL' %>
     <%= f.submit "JE M'ABONNE À LA NEWSLETTER", class: 'btn btn-outline-secondary' %>
   <% end %>
+
   </div>
-  <p><strong>Abonnez-vous gratuitement et recevez nos derniéres actualités de Hacking !</strong></p>
+
 </section>
