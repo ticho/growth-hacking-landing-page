@@ -2,7 +2,10 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
-
+#pour la newletter
+gem 'gibbon'
+#pour l'api mailchimp
+gem'dotenv'
 # Use bootstrap
 gem 'bootstrap', '~> 4.1', '>= 4.1.3'
 gem 'jquery-rails'
