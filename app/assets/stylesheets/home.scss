@@ -126,21 +126,6 @@ body {
   }
 }
 
-.btn {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  max-width: 300px;
-  padding: 12px 18px;
-  border-radius: 100px;
-  background: #ff4e5c;
-}
-.btn:hover {
-  background: #ff3545;
-}
-
 .footer {
   color: #fff;
   text-align: center;
@@ -149,4 +134,8 @@ body {
 }
 .footer p {
   opacity: .65;
+}
+
+.alert {
+  text-align: center;
 }

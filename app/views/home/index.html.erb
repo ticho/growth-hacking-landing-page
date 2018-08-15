@@ -2,7 +2,6 @@
   <h1>Home#index</h1>
   <p>Find me in app/views/home/index.html.erb</p>
 
-  <%= render 'home/form' %>
     <% end %>
 <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -62,10 +61,11 @@
       </section>
       <div class="section section--cta">
         <div class="wrapper">
+
+          <%= render 'home/form' %>
           <h2 class="section__title">SOME TITLE</h2>
           <p class="section__intro">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Curabitur blandit
             tempus porttitor.</p>
-          <a class="btn" href="#">TEXT BUTTON</a>
         </div>
       </div>
       <div class="footer">
