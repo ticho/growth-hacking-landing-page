@@ -1,4 +1,9 @@
 <%= form_with model: User.new, class: 'form-inline' do |f| %>
-  <%= f.email_field :email, class: 'form-control', placeholder: 'sevenstripes@gmail.com' %>
-  <%= f.submit "S'abonner", class: 'btn btn-outline-secondary' %>
+  <div class="input-group">
+    <div class="input-group-prepend">
+     <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
+    </div>
+    <%= f.email_field :email, class: 'form-control', placeholder: 'sevenstripes@gmail.com', 'aria-describedby' => "basic-addon1" %>
+  </div>
+  <%= f.submit "S'abonner", class: 'btn' %>
 <% end %>
