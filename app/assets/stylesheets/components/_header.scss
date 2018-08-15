@@ -1,0 +1,61 @@
+.hero {
+  text-align: center;
+  position: relative;
+  height: auto;
+  padding-bottom: 80px;
+  background: #4f2f60 url("job.jpeg") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+}
+.hero h1 {
+  margin: 50px 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+}
+.hero h1 span {
+  font: 700 60px/1 "Dancing Script", cursive;
+  display: block;
+}
+.hero h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 20px;
+  font-style:italic;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero h1 span {
+    font-size: 76px;
+  }
+  .hero h2 {
+    width: 76%;
+    font-size: 18px;
+  }
+}
+.hero_img_arrondi{
+  position: absolute;
+  bottom: 0;
+  background: 0 0;
+  height: 42px;
+  width: 100%;
+  z-index: 10;
+}
+
+.hero-btn {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
+  padding: 12px 18px;
+  border-radius: 100px;
+  background: #ff4e5c;
+  display:inline-flex;
+}
+.hero-btn:hover {
+  background: #ff3545;
+}
