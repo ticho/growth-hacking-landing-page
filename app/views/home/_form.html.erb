@@ -3,7 +3,7 @@
     <div class="input-group-prepend">
      <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
     </div>
-    <%= f.email_field :email, class: 'form-control', placeholder: 'sevenstripes@gmail.com', 'aria-describedby' => "basic-addon1" %>
+    <%= f.email_field :email, class: 'form-control', placeholder: 'sevenstripes@gmail.com', 'aria-describedby' => "basic-addon1", 'required' => 'true' %>
   </div>
   <%= f.submit "S'abonner", class: 'btn' %>
 <% end %>
