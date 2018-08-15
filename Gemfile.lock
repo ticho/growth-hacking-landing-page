@@ -82,6 +82,7 @@ GEM
     concurrent-ruby (1.0.5)
     concurrent-ruby (1.0.5-java)
     crass (1.0.4)
+    dotenv (2.5.0)
     erubi (1.7.1)
     execjs (2.7.0)
     faraday (0.15.2)
@@ -246,6 +247,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  dotenv
   gibbon
   jbuilder (~> 2.5)
   jquery-rails
