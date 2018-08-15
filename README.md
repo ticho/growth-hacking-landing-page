@@ -1,6 +1,6 @@
 # Growth Hacking
 
-Team : Badr Fadia NicoC. Kamus Tibo
+Team : Badr Fadia NicoC. Kamus Tibo NicoZ.
 
 ## Projet
 
@@ -17,6 +17,6 @@ Ensuite nous mettrons en places plusieurs autres services:
 Mercredi:
   - Fadia : user aquisition sur twitter (42/Epita/Epitech/StationF)
   - Kamus : creation de la landing page
-  - Nico : service de mailing
+  - Nico & Nico : service de mailing
   - Badr : Espionnage industriel 00Pizza / Assistance
   - Tibo : Assistance codeur en detresse
