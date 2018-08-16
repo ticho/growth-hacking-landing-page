@@ -5,8 +5,6 @@ class MailGibbon
   end
 
   def add_user
-    puts "ozo"
-    puts Rails.application.credentials.mailchimp[:api_key]
     gibbon = Gibbon::Request.new(api_key: Rails.application.credentials.mailchimp[:api_key])
     gibbon.lists('9b2aa33971').members.create(body: {email_address: @email, status: "subscribed"})
   end
