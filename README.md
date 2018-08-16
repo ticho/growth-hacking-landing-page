@@ -1,8 +1,9 @@
-# Growth Hacking
+r # Growth Hacking
 
 Team : Badr Fadia NicoC Kamus Tibo NicoZ
 
-Lien Heroku : https://landing-page-email.herokuapp.com/ 
+Lien Heroku : https://rejoignez-thp.herokuapp.com/
+Lien du Bot Twitter : https://twitter.com/THP_Code
 
 ## Projet
 
@@ -11,7 +12,7 @@ Il se decoupe en 3 parties:
   - user aquisition : attirer des visiteurs sur notre page
   - landing page : pour obtenir les emails des personnes interessees
   - service de mailing et newsletter
-  
+
 Ensuite nous mettrons en places plusieurs autres services:
  - analyse de conversion de notre page
  - campagnes de newletter, mailing
