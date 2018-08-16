@@ -13,11 +13,7 @@
 
 
   <div class="hero-btn">
-      <%= form_with model: User.new, class: 'form-inline' do |f| %>
-    <%= f.email_field :email, class: 'form-control', placeholder: 'E-MAIL' %>
-    <%= f.submit "JE M'ABONNE À LA NEWSLETTER", class: 'btn btn-outline-secondary' %>
-  <% end %>
-
+    <%= render "home/form" %>
   </div>
 
 </section>
