@@ -11,6 +11,34 @@ class MailGibbon
 
   def newletter
     gibbon = Gibbon::Request.new(api_key: Rails.application.credentials.mailchimp[:api_key])
-    gibbon.campaigns('mailchimp0ba270124b2035bcd4642bcff.02f0a0bb98').actions.send.create
+    recipients = {
+      list_id: '9b2aa33971'
+    }
+
+    settings = {
+      subject_line: "THP Newletter",
+      title: "Cette semaine à THP",
+      from_name: "Charles",
+      reply_to: "thp.emailing@gmail.com"
+    }
+    
+    body = {
+      type: "regular",
+      recipients: recipients,
+      settings: settings,
+      template: { 
+        id: 2957,
+        sections: {
+          "middle": "OWO"
+        }
+      }
+    }
+    
+    begin
+      gibbon.campaigns.create(body: body)
+    rescue Gibbon::MailChimpError => e
+      puts "Houston, we have a problem: #{e.message} - #{e.raw_body}"
+    end
+    #gibbon.campaigns('02f0a0bb98').actions.send.create
   end
 end
