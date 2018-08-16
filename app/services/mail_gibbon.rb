@@ -1,6 +1,5 @@
 class MailGibbon
   require 'gibbon'
-  require 'dotenv/load'
   def initialize(email)
     @email = email
   end
