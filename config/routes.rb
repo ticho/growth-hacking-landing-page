@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  get 'users/create'
-  get 'user/create'
-  resources :users
+get '/startups', to: 'home#startups'
+get '/students', to: 'home#students'
+    resources :users
+
   root 'home#index'
+
 end
