@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.1'
 
 # Twitter gem
-gem 'twitter'
+gem 'twitter', '~> 6.2'
 # Scrap utility
 gem 'nokogiri'
 gem 'httparty'
