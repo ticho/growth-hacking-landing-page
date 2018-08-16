@@ -1,6 +1,6 @@
 # Growth Hacking
 
-Team : Badr Fadia NicoC. Kamus Tibo NicoZ.
+Team : Badr Fadia NicoC Kamus Tibo NicoZ
 
 ## Projet
 

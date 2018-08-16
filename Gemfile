@@ -8,6 +8,8 @@ gem 'twitter', '~> 6.2'
 # Scrap utility
 gem 'nokogiri'
 gem 'httparty'
+#pour la newsletter
+gem 'gibbon'
 # Use bootstrap
 gem 'bootstrap', '~> 4.1', '>= 4.1.3'
 gem 'jquery-rails'
