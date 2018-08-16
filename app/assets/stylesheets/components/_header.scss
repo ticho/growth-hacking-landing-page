@@ -3,7 +3,7 @@
   position: relative;
   height: auto;
   padding-bottom: 80px;
-  background: #4f2f60 url("job.jpeg") center center no-repeat;
+  background: #4f2f60 url(asset_path("job.jpeg")) center center no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -75,7 +75,7 @@
   position: relative;
   height: auto;
   padding-bottom: 80px;
-  background: #4f2f60 url("startup.jpg") center no-repeat;
+  background: #4f2f60 url(asset_path("startup.jpg")) center no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -149,7 +149,7 @@
   position: relative;
   height: auto;
   padding-bottom: 80px;
-  background: #4f2f60 url("students.jpg") center no-repeat;
+  background: #4f2f60 url(asset_path("students.jpg")) center no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
