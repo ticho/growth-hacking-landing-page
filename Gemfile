@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+# scheduler
+gem 'whenever', :require => false
 # Twitter gem
 gem 'twitter', '~> 6.2'
 # Scrap utility
