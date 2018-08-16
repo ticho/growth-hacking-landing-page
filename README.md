@@ -20,7 +20,7 @@ Mercredi:
   - Fadia : user aquisition sur twitter (42/Epita/Epitech/StationF)
   - Kamus : creation de la landing page
   - Nico & Nico : service de mailing
-  - Badr : Espionnage industriel 00Pizza / Assistance
+  - Badr : Espionnage industriel 00Pizza / Assistance/ siéste /dodo /mais t'es ou ? ==> pas là!
   - Tibo : Assistance codeur en detresse
 
 ## User aquisition
@@ -31,14 +31,12 @@ Nous avons plusieurs comptes Twitter:
 
 ## Landing pages
 
-Nous avons utilisé un Template trouvé sur code*** ?
-Il est responsive.
 
 Nous avons 3 landings pages:
-  - une de presentation generale
-  - une qui vise les etudiants (qui codent p-e deja) et qui met en avant le coté technique des projets
-  - une qui vise les startup, et leur propose de mentorer ou d'embaucher des Moussaillons/Corsaires
-
+  - Une de presentation generale de THP
+  - Une qui vise les etudiants (qui codent p-e deja) et qui met en avant le coté technique des projets
+  - Une qui vise les startup, et leur propose de mentorer ou d'embaucher des Moussaillons/Corsaires
+ Choix du disign: la LP est orientée de façon à ce que l'utlisateur puisse s'abonner en renseignant uniquement son Email
 ## Mailer
 
 Nous avons un mailer qui envoit un email de confirmation aux personnes inscrites.
