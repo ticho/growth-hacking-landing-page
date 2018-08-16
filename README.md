@@ -25,7 +25,7 @@ Mercredi:
 
 Nous avons plusieurs comptes Twitter:
   - one follows all the followers from 42/Epitech/Epita
-  - one follows all the startups from 'lespepitestech.com'
+  - one follows all the startups from 'lespepitestech.com', aujourd'hui nous en avons 2200 en base de donnée mais c'est facilement extensible
 
 ## Landing pages
 

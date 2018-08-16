@@ -12,22 +12,36 @@ class FollowTwitter
     end
   end
 
-  # def find_followers
-  #   follower = []
-  #   while cursor != 0
-  #     followers = Twitter.follower_ids("2born2code", "Epia", "Epitech", "joinstationf")
-  #     follower += followers.ids
-  #     sleep(2)
-  #   end
-  # end
+  def find_followers
+    # follower = []
+    # while cursor != 0
+    #   followers = Twitter.follower_ids("42born2code", "Epita", "Epitech", "joinstationf")
+    #   follower += followers.ids
+    #   sleep(2)
+    # end
+    born2code = @client.user_search('42')
+    followers = @client.follower_ids()
+    p followers.attrs[:ids]
+    # followers = followers.attrs
+    # followers.each do |follower|
+    #   follower = users.search(follower)
+    #   p follower.screen_name
+    # end
+  end
+
+  def follow_startups
+    Startup.all.each do |startup|
+      follow(startup.name)
+    end
+  end
 
   def follow(name)
     handle = @client.user_search(name)
     begin
       @client.follow!(handle[0])
-      p "Followed #handle[0].screen_name"
+      p "Followed #{handle[0].screen_name}"
     rescue StandardError
-      puts "Error: can't find a twitter account for #{city['name']}"
+      puts "Error: can't find a twitter account for #{name}"
     end
   end
 end
