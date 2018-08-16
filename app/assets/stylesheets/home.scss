@@ -72,16 +72,16 @@ body {
   text-align: center;
   padding: 20px;
 }
-.box__content > i {
-  color: #3b3b58;
-}
-.box__content:hover .box__more {
-  color: #ff3545;
-}
-.box__content:hover .box__more i {
-  padding-left: 4px;
-  transition: all .2s ease-in-out;
-}
+// .box__content > i {
+//   color: #3b3b58;
+// }
+// .box__content:hover .box__more {
+//   color: #ff3545;
+// }
+// .box__content:hover .box__more i {
+//   padding-left: 4px;
+//   transition: all .2s ease-in-out;
+// }
 @media only screen and (min-width: 43.75em) {
   .box {
     flex: 0 0 30%;
