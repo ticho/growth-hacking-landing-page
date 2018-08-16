@@ -48,6 +48,17 @@ Nous avons un mailer qui envoie un email de confirmation aux personnes inscrites
 
 ## Operations marketing
 
-Nous en avons deux en cours:
-  - follow les dernieres startups sur 'lespepitestech.com'
+Nous en avons deux en cours, lancement tous les mardi à 9am:
+  - follow les dernieres startups sur 'lespepitestech.com' après avoir scrappé la page
   - follow les followers recents de 42/Epitech/Epita
+
+## Gems utilisées
+
+- Nokogiri et httparty, scrapping
+- Twitter, acces à l'API
+- Gibbon, pour le mailing MailChimp
+- Whenever comme event scheduler
+
+## DB
+
+Sqlite3 en dev/test et postgresql en production
