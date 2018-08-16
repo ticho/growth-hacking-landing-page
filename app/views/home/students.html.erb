@@ -1,0 +1,32 @@
+<% if false %>
+  <h1>Home#index</h1>
+  <p>Find me in app/views/home/index.html.erb</p>
+
+    <% end %>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link href='//fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700|Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+      <%= render "home/header_students"%>
+      <section class="section">
+        <div class="wrapper">
+          <h2 class="section__title">SOME TITLE</h2>
+          <p class="section__intro">
+            Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Curabitur blandit tempus
+            porttitor.
+          </p>
+          <%= render "home/article"%>
+        </div>
+      </section>
+      <div class="section section--cta">
+        <div class="wrapper">
+
+          <%= render 'home/form' %>
+          <h2 class="section__title">SOME TITLE</h2>
+          <p class="section__intro">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Curabitur blandit
+            tempus porttitor.</p>
+        </div>
+      </div>
+      <%= render "layouts/footer"%>

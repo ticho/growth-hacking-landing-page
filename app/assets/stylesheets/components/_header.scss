@@ -69,3 +69,149 @@
   // background: #ff3545;
   opacity: 0.9;
 }
+// #################################### startups##############################
+.hero_startups {
+  text-align: center;
+  position: relative;
+  height: auto;
+  padding-bottom: 80px;
+  background: #4f2f60 url("startup.jpg") center no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+}
+.hero_startups p {
+  color: #fff;
+
+}
+
+.hero_startups h1 {
+  margin: 50px 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+
+}
+.hero_startups h1 span {
+  font: 700 60px/1 "Dancing Script", cursive;
+  // display: block;
+}
+.hero_startups h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 20px;
+  font-style:italic;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .hero_startups h1 {
+    font-size: 50px;
+  }
+  .hero_startups h1 span {
+    font-size: 76px;
+  }
+  .hero_startups h2 {
+    width: 76%;
+    font-size: 18px;
+  }
+}
+.hero_startups_img_arrondi{
+  position: absolute;
+  bottom: 0;
+  background: 0 0;
+  height: 42px;
+  width: 100%;
+  z-index: 10;
+}
+
+.hero_startups-btn{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: #ff4e5c;
+  display:inline-block;
+  position: absolute center;
+  opacity: 0.75;
+  border-bottom-style: solid;
+
+  }
+.hero_startups-btn:hover {
+  // background: #ff3545;
+  opacity: 0.9;
+}
+
+
+// ####################################Students#############################""
+.hero_students {
+  text-align: center;
+  position: relative;
+  height: auto;
+  padding-bottom: 80px;
+  background: #4f2f60 url("students.jpg") center no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+}
+.hero_students p {
+  color: #fff;
+
+}
+
+.hero_students h1 {
+  margin: 50px 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+
+}
+.hero_students h1 span {
+  font: 700 60px/1 "Dancing Script", cursive;
+  // display: block;
+}
+.hero_students h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 20px;
+  font-style:italic;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .hero_students h1 {
+    font-size: 50px;
+  }
+  .hero_students h1 span {
+    font-size: 76px;
+  }
+  .hero_students h2 {
+    width: 76%;
+    font-size: 18px;
+  }
+}
+.hero_students_img_arrondi{
+  position: absolute;
+  bottom: 0;
+  background: 0 0;
+  height: 42px;
+  width: 100%;
+  z-index: 10;
+}
+
+.hero_students-btn{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: #ff4e5c;
+  display:inline-block;
+  position: absolute center;
+  opacity: 0.75;
+  border-bottom-style: solid;
+
+  }
+.hero_students-btn:hover {
+  // background: #ff3545;
+  opacity: 0.9;
+}
