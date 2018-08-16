@@ -12,21 +12,27 @@ class FollowTwitter
     end
   end
 
+  # returns an array of twitter users to follow
   def find_followers
-    # follower = []
-    # while cursor != 0
-    #   followers = Twitter.follower_ids("42born2code", "Epita", "Epitech", "joinstationf")
-    #   follower += followers.ids
-    #   sleep(2)
-    # end
+    results = []
     born2code = @client.user_search('42')
-    followers = @client.follower_ids()
-    p followers.attrs[:ids]
-    # followers = followers.attrs
-    # followers.each do |follower|
-    #   follower = users.search(follower)
-    #   p follower.screen_name
-    # end
+    begin
+    followers = @client.follower_ids(born2code[0].id)
+    followers.attrs[:ids].sample(5).each do |follower|
+      follower = @client.user(follower)
+      results.push(follower)
+      p follower.screen_name
+    end
+    rescue StandardError => e
+      p "Find_followers error: moving on."
+    end
+    results
+  end
+
+  def follow_accounts
+    find_followers.each do |follower|
+      @client.follow!(follower)
+    end
   end
 
   def follow_startups
