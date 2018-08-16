@@ -2,6 +2,8 @@
 
 Team : Badr Fadia NicoC Kamus Tibo NicoZ
 
+Lien Heroku : https://landing-page-email.herokuapp.com/ 
+
 ## Projet
 
 Ce projet a pour but de recruter des moussaillons pour la prochaine session de THP.
