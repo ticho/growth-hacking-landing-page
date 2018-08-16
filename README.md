@@ -1,8 +1,11 @@
-r # Growth Hacking
+# Growth Hacking
 
 Team : Badr Fadia NicoC Kamus Tibo NicoZ
 
-Lien Heroku : https://rejoignez-thp.herokuapp.com/
+Lien Heroku généraliste : https://rejoignez-thp.herokuapp.com/
+LP orienté Startups : http://rejoignez-thp.herokuapp.com/startups
+LP orienté Students : http://rejoignez-thp.herokuapp.com/students
+
 Lien du Bot Twitter : https://twitter.com/THP_Code
 
 ## Projet
@@ -32,7 +35,6 @@ Nous avons plusieurs comptes Twitter:
 
 ## Landing pages
 
-
 Nous avons 3 landings pages:
   - Une de presentation generale de THP
   - Une qui vise les etudiants (qui codent p-e deja) et qui met en avant le coté technique des projets
@@ -40,7 +42,7 @@ Nous avons 3 landings pages:
  Choix du disign: la LP est orientée de façon à ce que l'utlisateur puisse s'abonner en renseignant uniquement son Email
 ## Mailer
 
-Nous avons un mailer qui envoit un email de confirmation aux personnes inscrites.
+Nous avons un mailer qui envoie un email de confirmation aux personnes inscrites.
 
 ## Operations marketing
 
