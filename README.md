@@ -2,11 +2,13 @@
 
 Team : Badr Fadia NicoC Kamus Tibo NicoZ
 
-Lien Heroku généraliste : https://rejoignez-thp.herokuapp.com/
-LP orienté Startups : http://rejoignez-thp.herokuapp.com/startups
-LP orienté Students : http://rejoignez-thp.herokuapp.com/students
+-Lien Heroku généraliste : https://rejoignez-thp.herokuapp.com/ 
 
-Lien du Bot Twitter : https://twitter.com/THP_Code
+-LP orienté Startups : http://rejoignez-thp.herokuapp.com/startups
+
+-LP orienté Students : http://rejoignez-thp.herokuapp.com/students
+
+-Lien du Bot Twitter : https://twitter.com/THP_Code
 
 ## Projet
 
