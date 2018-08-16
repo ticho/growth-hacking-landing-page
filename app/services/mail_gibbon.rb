@@ -14,6 +14,7 @@ class MailGibbon
   end
 
   def newletter
+    gibbon = Gibbon::Request.new(api_key: ENV["API_GIBBON"])
     gibbon.campaigns('mailchimp0ba270124b2035bcd4642bcff.02f0a0bb98').actions.send.create
   end
 end

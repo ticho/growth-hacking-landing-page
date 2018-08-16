@@ -1,8 +1,11 @@
 require 'test_helper'
 
 class MailGibbonTest < ActionDispatch::IntegrationTest
-  test "should add to list" do
+  test "add_user" do
     assert MailGibbon.new.add_user
+  end
+  test "recampaign" do 
+    assert MailGibbon.new.newletter
   end
 
 end
